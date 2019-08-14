@@ -1,5 +1,6 @@
 //Exercise 1
 
+// classes should be capitolized ex Movie vs movie 
 class movie
 {
     constructor(movieName,rating,yearRelease)
@@ -11,6 +12,7 @@ class movie
     changeName()
     {
         let newName= prompt("change name to..");
+        // this.name is not a property of the Movie class
         this.name= newName;
     }
     
@@ -35,5 +37,4 @@ funny.changeName()
 action.changeRating()
 funny.changeYearRelease()
 console.log(funny)
-Console.log(action
-)
+Console.log(action)
